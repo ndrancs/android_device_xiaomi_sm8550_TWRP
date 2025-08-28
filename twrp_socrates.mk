@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/fuxi
+DEVICE_PATH := device/xiaomi/socrates
 
 # Inherit from device.mk configuration
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
@@ -23,7 +23,7 @@ $(call inherit-product, $(DEVICE_PATH)/device.mk)
 PRODUCT_RELEASE_NAME := socrates
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := fuxi
+PRODUCT_DEVICE := socrates
 PRODUCT_NAME := twrp_socrates
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi K60 Pro
